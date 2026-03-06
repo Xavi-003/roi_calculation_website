@@ -15,8 +15,20 @@ export const metadata: Metadata = {
   description: 'Calculate the hidden potential in your current funnel with our Interactive B2B ROI Calculator.',
   manifest: '/manifest.json',
   icons: {
-    icon: '/icon.png',
-    apple: '/icon.png',
+    icon: [
+      { url: '/icon.png', sizes: '32x32', type: 'image/png' },
+      { url: '/icon.png', sizes: '16x16', type: 'image/png' },
+    ],
+    shortcut: '/icon.png',
+    apple: [
+      { url: '/icon.png', sizes: '180x180', type: 'image/png' },
+    ],
+    other: [
+      {
+        rel: 'apple-touch-icon-precomposed',
+        url: '/icon.png',
+      },
+    ],
   },
   appleWebApp: {
     capable: true,
