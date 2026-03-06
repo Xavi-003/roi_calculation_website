@@ -35,7 +35,7 @@ export default function Home() {
       {/* Footer Section - Fixed Height */}
       <footer className="relative z-10 w-full flex items-center justify-center py-4 shrink-0 border-t border-white/5">
         <p className="text-[9px] font-bold text-slate-600 uppercase tracking-[0.4em]">
-          &copy; 2024 Antigravity ROI
+          ROI Calculator
         </p>
       </footer>
     </main>
