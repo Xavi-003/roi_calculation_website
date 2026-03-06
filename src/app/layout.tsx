@@ -13,20 +13,20 @@ export const viewport = {
 export const metadata: Metadata = {
   title: 'Interactive B2B ROI Calculator',
   description: 'Calculate the hidden potential in your current funnel with our Interactive B2B ROI Calculator.',
-  manifest: '/manifest.json',
+  manifest: '/roi_calculation_website/manifest.json',
   icons: {
     icon: [
-      { url: '/icon.png', sizes: '32x32', type: 'image/png' },
-      { url: '/icon.png', sizes: '16x16', type: 'image/png' },
+      { url: '/roi_calculation_website/icon.png', sizes: '32x32', type: 'image/png' },
+      { url: '/roi_calculation_website/icon.png', sizes: '16x16', type: 'image/png' },
     ],
-    shortcut: '/icon.png',
+    shortcut: '/roi_calculation_website/icon.png',
     apple: [
-      { url: '/icon.png', sizes: '180x180', type: 'image/png' },
+      { url: '/roi_calculation_website/icon.png', sizes: '180x180', type: 'image/png' },
     ],
     other: [
       {
         rel: 'apple-touch-icon-precomposed',
-        url: '/icon.png',
+        url: '/roi_calculation_website/icon.png',
       },
     ],
   },
